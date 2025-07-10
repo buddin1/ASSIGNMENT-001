@@ -1,0 +1,157 @@
+
+/* shared class */
+body{
+    max-width: 1440px;
+    background-color: #F5F8FF;
+}
+button{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    padding: 12px;
+    
+}
+button:hover{
+    background-color: rgb(20, 235, 224);
+}
+
+.title-text{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    padding-top: 25px;
+    
+}
+
+.description-text{
+    color: #252432 ;
+    font-size: 24px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    
+}
+img{
+    border-radius: 15px;
+}
+
+
+
+/* header  */
+header{
+    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+    width: 1440px;
+    height: 700px;
+    max-width: 1440px;
+   
+    
+}
+
+/* nav  */
+nav{
+    
+}
+.navbar{
+    display: flex;
+    width: 1140px;
+    margin:0 150px;
+    justify-content: space-between;
+    
+   
+    
+}
+.nav-logo{
+color: #4E47FF;
+font-size: 40px;
+font-weight: bolder;
+}
+
+
+
+/* this is bannar */
+.bannar{
+     /* margin-top: 158px;  */
+ 
+    display: block;
+    /* margin-left: 500px ; */
+    text-align: center;
+ 
+    margin: 270px  150px ;
+
+   
+}
+.welcome-text{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    
+    
+}
+
+/* main section1 */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 160px 116px 141px;
+}
+.action-text{
+    padding-right: 225px;
+}
+
+
+/* main section2 production */
+.production{
+    background-color: #d3e1e4;
+    text-align: center;
+    margin: 116px 150px 125px 141px ;
+    
+    
+}
+
+.users{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+   
+}
+.user{
+    display: block;
+    padding-bottom: 10px;
+}
+.count{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+/* feedback section  */
+.feedback{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 137px 151px;
+    border-radius: 30px;
+}
+.feedback .reviews{
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+ }
+ .review{
+    display: block;
+    width: 257px ;
+    height: 243px;
+    background-color: #F2EDED;
+ }
+ .review-title{
+    font-size: x-large;
+ }
+.reviewer{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
