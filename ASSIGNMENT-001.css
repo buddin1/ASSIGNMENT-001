@@ -144,14 +144,25 @@ font-weight: bolder;
  .review{
     display: block;
     width: 257px ;
-    height: 243px;
+    /* height: 243px; */
     background-color: #F2EDED;
+     border-radius: 30px;
+     padding-left: 20px;
+     padding-top: 30px;
+     padding-bottom: 25px;
  }
  .review-title{
     font-size: x-large;
  }
 .reviewer{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
 } */
 
+/* section ad */
+.advertisment {
+     text-align: center;
+     background-color: #d3e1e4;
+     display: block;
+     margin: 137px 150px;
+}
