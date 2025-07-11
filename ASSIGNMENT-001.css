@@ -106,6 +106,7 @@ font-weight: bolder;
     background-color: #d3e1e4;
     text-align: center;
     margin: 116px 150px 125px 141px ;
+    border-radius: 25px;
     
     
 }
@@ -145,7 +146,7 @@ font-weight: bolder;
     display: block;
     width: 257px ;
     /* height: 243px; */
-    background-color: #F2EDED;
+     background-color: #d3e1e4;
      border-radius: 30px;
      padding-left: 20px;
      padding-top: 30px;
@@ -157,12 +158,41 @@ font-weight: bolder;
 .reviewer{
     display: flex;
     /* justify-content: space-around; */
-} */
+} 
 
-/* section ad */
-.advertisment {
-     text-align: center;
-     background-color: #d3e1e4;
-     display: block;
-     margin: 137px 150px;
+/* .about section style   */
+
+.about-section{
+    display: block;
+    padding-bottom: 0px;
+    /* margin-left: 150px; */
+    text-align: center;
+    
+
 }
+
+/* contact */
+.contact{
+     display: flex; 
+    background-color:#d3e1e4; ;
+    border-radius: 25px;
+    justify-content: space-between;
+    margin: 92px 150px 14px 150px;
+    padding: 71px 0px 76px 115px;
+
+}
+.end-text{
+    font-size: 97px;
+    font-weight: bold;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 34px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 60%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    }
+/* real footer section  */
