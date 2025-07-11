@@ -1,8 +1,14 @@
 
+
+
+
+
+
+
 /* shared class */
 body{
     max-width: 1440px;
-    background-color: #F5F8FF;
+    background-color: #edeef1;
 }
 button{
     color: #FFFFFF;
@@ -174,7 +180,7 @@ font-weight: bolder;
 /* contact */
 .contact{
      display: flex; 
-    background-color:#d3e1e4; ;
+    /* background-color:#d3e1e4;  */
     border-radius: 25px;
     justify-content: space-between;
     margin: 92px 150px 14px 150px;
@@ -196,3 +202,21 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     border: none;
     }
 /* real footer section  */
+.real-foot{
+    text-align: center;
+    padding: 100px 400px 40px 400px;
+    background-color: #d3e1e4;
+.footer-logo{
+    font-size: 120px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color: #252432;
+}
